@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: url(./../images/bgcoding.jpg) no-repeat center center/cover;
+}
+
+nav{
+width: 100%;
+padding: 10px 0;
+position: fixed;
+}
+
+nav .menu{
+    max-width: 1250px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .menu .logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav .menu .logo .l-left{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav .menu .l-left:hover{
+    color: #5c2002;
+}
+
+nav .menu .logo .l-right{
+    color: #5c2002;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    color: #7092f0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.content{
+    display: flex;
+    max-width: 1250px;
+    height: 100vh;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.title{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.title span{
+    color: #5c2002;
+}
+
+.sub-title{
+    width: 45%;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.btn-order{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+    font-weight: 400;
+    border: 2px solid #ffffff;
+    padding: 5px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-order{
+    background: #5c2002;
+    color: #ffffff;
+}
